@@ -1,0 +1,23 @@
+# ==============================================================================
+# RCS-Nexus Core Dependencies
+# ==============================================================================
+
+# Asynchronous & Event-Driven Engine
+asyncio>=3.4.3; python_version < "3.8" # Core async routing for multi-agent loops
+
+# Data Serialization & Validation
+pydantic>=2.5.0             # High-performance data validation for signal bridges
+
+# Knowledge Graph & Memory Management
+networkx>=3.1               # Graph structures for the semantic memory manager
+
+# LLM & Context Integration Utilities
+openai>=1.3.0               # Standard interface for context evaluation (optional endpoint)
+tiktoken>=0.5.1             # Token counting for precise context window control during sleep
+
+# Testing & Quality Assurance
+pytest>=7.4.0               # Framework for local unit testing
+pytest-asyncio>=0.21.1      # Support for testing asynchronous agent loops
+
+# Development & Environment Management
+python-dotenv>=1.0.0       # Secure management of project environment variables
